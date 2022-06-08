@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>LearnAmigurumi</title>
+    <link rel="shortcut icon" href="./imagenes/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav container">
+      <div class=" nav_logo">
+        <h2 class="nav_title">LearnAmigurumi</h2>
+
+      </div>
+
+      <ul class="nav_link nav_link--menu">
+        <li class=" nav_items">
+          <a href="a" class="nav_links">Inicio</a>
+        </li>
+        <li class=" nav_items">
+          <a href="a" class="nav_links">Acerca de</a>
+        </li>
+        <li class=" nav_items">
+          <a href="a" class="nav_links">Contacto</a>
+        </li>
+        <li class=" nav_items">
+          <a href="a" class="nav_links">Blog</a>
+        </li>
+
+        <img src="./imagenes/close.svg" alt="close" class="nav_close">
+      </ul>
+
+      <div class="nav_menu">
+        <img src="imagenes/menu.svg" alt="menu" class="nav_img">
+      </div>
+    </nav>
+
+    <section class="hero_container container">
+      <h1 class="hero_title">Pedinos precio para tu Amigurumi</h1>
+      <p class="hero_paragraph">Elige aprender a tejer como nunca te lo hubieras imaginado. En este sitio encontrarás la posibilidad de cotizar tu propio Amigurumi. Dejanos tus ideas para que podamos innovar.</p>
+      <a href="a" class="cta">Cotizar ahora</a>
+    </section>
+
+  </header>
+
+  <main>
+    <section class="container about">
+      <h2 class="subtitle">¿Qué es Amigurumi?</h2>
+      <p class="about_paragraph">Todo lo que tenés que saber de los Amigurumis</p>
+
+      <div class="about_main">
+        <article class="about_icons">
+          <img src="./imagenes/leaf.svg" class="about_icon">
+          <h3 class="about_title">Vida Saludable</h3>
+          <p class="about_paragrah">Aprender a realizar Amigurumi ayuda a la relajación y la concentración, dos puntos vitales de la vida cotidiana.</p>
+        </article>
+
+        <article class="about_icons">
+          <img src="./imagenes/mouse.svg"class="about_icon">
+          <h3 class="about_title">Tutoriales</h3>
+          <p class="about_paragrah">No siempre es sencillo aprender una técnica manual de estas características, por eso te dejo unos tutoriales para que veas como hacerlo, lo importante es comenzar.</p>
+        </article>
+
+        <article class="about_icons">
+          <img src="./imagenes/run.svg"class="about_icon">
+          <h3 class="about_title">Constancia</h3>
+          <p class="about_paragrah">La constancia y la paciencia son las claves de este tipo de trabajos, el no sentirse abrumado y disfrutar del proceso es la mejor parte del Amigurumi.</p>
+        </article>
+
+        </div>
+    </section>
+    <section class="knowledge">
+          <div class="knowledge_container container">
+              <div class="knowledege_texts">
+                  <h2 class="subtitle">Nunca terminamos de aprender, siempre es importante compartir nuestras experiencias y logros.</h2>
+                  <p class="knowledge_paragraph">Parece imposible pero es facil de conseguir resultados, lo mas importante es emprzar. Amigurumi es una tecnica que nos deja siempre la sensación de que el trabajo duro vale la pena, y que los resultados siempre alegran a los demás.</p>
+                  <a href="https://www.youtube.com/watch?v=EYnF3y1TGKY" class="cta">Haz click y te muestro unos turoriales</a>
+              </div>
+
+              <figure class="knowledge_picture">
+                  <img src="./imagenes/daria-nepriakhina-xsYuIrLUxws-unsplash.jpg" class="knowledge_img">
+              </figure>
+                    </div>
+    </section>
+
+    <section class="cotizador">
+      <h2>Pedinos el precio de tu Amigurumi favorito</h2>
+      <div class=" formulario">
+        <form>
+          <div class= "campo">
+            <input type="string"> Ingresa tu nombre y Apellido
+            <input type="string"> Ingresa tu correo electrónico
+            <input type="int">Ingresa tu número telefónico
+          </select>
+          </div>
+
+          <div class="campo">
+            <label>Tipo de Amigurumi</label>
+            <select name="tipo_amigurumi" id="tipo_amigurumi">
+              <option value="**>-- Seleccione --</option>
+              <option value="anime">Animé</option>
+              <option value="disney">Disney</option>
+              <option value="animalito">Animalito</option>
+              <option value="planta">Planta</option>
+            </select>
+          </div>
+
+          <div class="campo"></div>
+            <label>Tamaño del Amigurumi</label>
+            <select name="tamanio_amigurumi" id="tamanio_amigurumi">
+              <option value="**>-- Seleccione --</option>
+              <option value="7">7cm</option>
+              <option value="10">10cm</option>
+              <option value="15">15cm</option>
+              <option value="20">20cm</option>
+            </select>
+          </div>
+
+          <div class="campo"></div>
+            <label>Color del Amigurumi</label>
+            <select name="color_amigurumi" id="color_amigurumi">
+              <option value="**>-- Seleccione --</option>
+              <option value="rojo">Rojo y blanco</option>
+              <option value="verde">Verde y blanco</option>
+              <option value="azul">Azul y blanco</option>
+              <option value="amarillo">Amarillo y blanco</option>
+            </select>
+          </div>
+
+          <input type="button" onclick="cotizarAmigurumi()" class="button-primary" value="Cotizar">
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
